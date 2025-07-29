@@ -129,6 +129,13 @@ p {
 }
 
 @media (min-width: 64rem) {
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
   main {
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, 1fr);
